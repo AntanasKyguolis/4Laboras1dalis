@@ -50,10 +50,10 @@ public class AutomobilisImpl extends TransportasImpl implements Automobilis{
 
     @Override
     public String toString() {
-        return "AutomobilisImpl{" +
-                "marke='" + marke + '\'' +
-                ", duruSkaicius=" + duruSkaicius +
-                ", varomasElektra=" + varomasElektra +
+        return "Automobilio " +
+                "marke = " + marke +
+                ", kuriame duru skaicius " + duruSkaicius +
+                ", yra varomas Elektra = " + varomasElektra +
                 '}';
     }
 }

@@ -3,12 +3,12 @@ package com.bazine;
 public class TransportasImpl implements Transportas {
     private String tipas;
     private boolean variklis;
-    private  int pagaminimoMetai;
+    private int pagaminimoMetai;
 
     public TransportasImpl(String  tipas, boolean variklis, int pagaminimoMetai){
         this.tipas = tipas;
-        this.variklis =variklis;
-        this.pagaminimoMetai =pagaminimoMetai;
+        this.variklis = variklis;
+        this.pagaminimoMetai = pagaminimoMetai;
     }
 
 
